@@ -1,3 +1,14 @@
-function skillMember() {
-    console.log('skillMember');
+function skillMembers() {
+  return {
+    members: [
+      {
+        name: "John",
+        skills: ["JavaScript", "React"],
+      },
+      {
+        name: "Jane",
+        skills: ["JavaScript", "Node"],
+      },
+    ],
+  };
 }
